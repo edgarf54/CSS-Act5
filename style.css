@@ -160,21 +160,24 @@ div {
 .rounded {
     border-radius: 5px 10px;
     /* ERROR 37: Border-width wrong format */
-    border-width: medium-thick;
+    border-width: medium;
 }
 
 
 /* SECTION 8: COMMON SYNTAX ERRORS */
 
 /* ERROR 38: Property outside of selector */
+html {
 background-color: white;
+}
 
 /* ERROR 39: Selector without any properties */
 .empty {
+  color: blue;
 }
 
 /* ERROR 40: Comment not closed properly */
-/* This is a broken comment
+/* This is a broken comment */
 h5 {
     color: purple;
 }
